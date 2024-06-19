@@ -1,0 +1,53 @@
+/* .popup-card-enter {
+    transform: scale(0.1);
+    opacity: 0;
+}
+
+.popup-card-enter-active {
+    transform: scale(1);
+    opacity: 1;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.popup-card-exit {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.popup-card-exit-active {
+    transform: scale(0.1);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+} */
+
+
+/* popupcard.css */
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomOut {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+}
+
+.popup-card {
+    animation: zoomIn 0.3s ease-out;
+}
+
+.popup-card-close {
+    animation: zoomOut 0.3s ease-in;
+}

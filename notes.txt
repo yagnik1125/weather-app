@@ -1,0 +1,11 @@
+forecast api=http://api.weatherapi.com/v1/forecast.json?key=b743c1e6a18e44e3bc0131521240806&q=Rajkot
+current api=http://api.weatherapi.com/v1/current.json?key=b743c1e6a18e44e3bc0131521240806&q=Rajkot
+
+website=https://www.weatherapi.com/docs/
+API Key: b743c1e6a18e44e3bc0131521240806
+TRIAL Ends on 22/Jun/2024   then new account
+
+
+project idea website=https://medium.com/@rohan.fulzele/50-beginner-and-intermediate-level-react-project-ideas-%EF%B8%8F-809b396faa39
+
+animation website=https://www.syncfusion.com/blogs/post/top-react-animation-libraries
