@@ -224,7 +224,7 @@ const CurrentWeather = () => {
                     return;
                 }
 
-                const response = await fetch(`http://api.weatherapi.com/v1/search.json?key=${apiKey}&q=${searchTerm}`);
+                const response = await fetch(`https://api.weatherapi.com/v1/search.json?key=${apiKey}&q=${searchTerm}`);
                 const data = await response.json();
 
                 // Filter out the current search term from suggestions
@@ -253,7 +253,7 @@ const CurrentWeather = () => {
         }
 
         setLoading(true); // Start loading
-        const currentWeatherApi = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}`;
+        const currentWeatherApi = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}`;
 
         try {
             const res = await fetch(currentWeatherApi);
