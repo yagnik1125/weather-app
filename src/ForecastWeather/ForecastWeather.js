@@ -82,7 +82,7 @@ const ForecastWeather = () => {
                     return;
                 }
 
-                const response = await fetch(`http://api.weatherapi.com/v1/search.json?key=${apiKey}&q=${searchTerm}`);
+                const response = await fetch(`https://api.weatherapi.com/v1/search.json?key=${apiKey}&q=${searchTerm}`);
                 const data = await response.json();
 
                 // Filter out the current search term from suggestions
@@ -113,7 +113,7 @@ const ForecastWeather = () => {
         setLoading(true); // Set loading to true before fetching data
 
         try {
-            const forecastWeatherApi = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=14`;
+            const forecastWeatherApi = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=14`;
 
             const response = await fetch(forecastWeatherApi);
             const data = await response.json();
