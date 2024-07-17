@@ -2,6 +2,8 @@
 
 This is a weather forecast application built with React. The app fetches weather data from the Weather API and displays the forecast for the next 14 days. Users can search for different cities, regions, or countries to get the weather details.
 
+currently live on:https://weatherwebi.netlify.app/
+
 ## Features
 
 - Search for weather forecasts by city, region, or country
